@@ -1,0 +1,19 @@
+{
+  "name": "dva-vue-boilerplate",
+  "version": "0.0.1",
+  "description": "A dva-vue template to create new project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liu599/dva-vue-boilerplate.git"
+  },
+  "keywords": [
+    "dva",
+    "vue"
+  ],
+  "author": "Tokei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liu599/dva-vue-boilerplate/issues"
+  },
+  "homepage": "https://github.com/liu599/dva-vue-boilerplate#readme"
+}
