@@ -97,9 +97,9 @@ Here our login scheme is:
 - the user trigger a login action - an ajax call with username and password to get the token from the remote server.
 - the user store the token.
 - router change to the user-list view.
-- make another ajax call with token (authorization), get a user list data stored to show in the next page.
+- make another ajax call with token (authorization), return a user list data stored to show in the next page.
 
-Write a fake request function(in the real world we will use axios or fetch) in `./utils/request.js`:
+Beginning with writing a fake request function(in the real world we will use `axios` or `fetch`) in `./utils/request.js`:
 
 ```javascript
     export default (url, params) => {

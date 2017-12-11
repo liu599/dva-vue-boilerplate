@@ -1,0 +1,19 @@
+## 快速问答 Q&A
+- dva-vue用来解决的问题
+    - 是一个状态管理方案
+    - 将数据逻辑统一起来, 使代码简洁开发更高效, 更适合于多人协作
+    - 使用redux数据流使得状态可控, 易于测试和追踪
+    - 使用generator函数使异步处理同步化
+- Vue 组件中如何引用state
+- Vue 组件中如何发出动作
+- saga function(* generator)如何写, 函数的意义
+- saga function中做路由跳转
+- reducer怎么写
+- 全局Loading
+- 全局错误处理
+- 全局变量定义
+- 使用Hash路由, 路由配置
+- 动态路由
+- 全局和局部路由监听
+- 如何使用Element-ui等全局库
+- 如何使用redux中间件, 比如redux-logger
