@@ -1,5 +1,7 @@
 # dva-vue-boilerplate
 
+- In development.
+- Another solution of state management for vue project.
 - Vue.js project boilerplate with [dva-core](https://github.com/dvajs/dva/tree/master/packages/dva-core).
 - Inspired by [dva-vue](https://github.com/Jetsly/dva-vue).
 - This boilerplate is blank, initialized with a latest version vue-cli (`vue init webpack dva-vue-standrad`), integrated with dva core.
@@ -7,13 +9,7 @@
 ## Quick Start
 
 - `git clone https://github.com/liu599/dva-vue-boilerplate.git` clone this project to your local disk.
-- `cd dva-vue-standrad`, take 5 minutes to read the following rules, begin to build your project.
-
-## About dva and dva-core.
-  
-[dva](https://github.com/dvajs/dva) is a great framework for React, which  re-structures initialState, reducer, saga, action together for redux and improve development experience.
-
-[dva-core](https://github.com/dvajs/dva/tree/master/packages/dva-core) is a redux, redux-saga state management implementation, could be used as another state-management scheme for Vuejs project with [dva-vue](https://github.com/Jetsly/dva-vue) (compared with official *Vuex*).
+- `cd dva-vue-standrad`, take 5 minutes to read the following rules, begin to build your own project.
 
 ## Write vue project with dva
 
@@ -67,23 +63,26 @@ $ npm install dva-vue-c dva-core vue-router -S
 In `main.js`,
 
 ```javascript
-
 import dva from 'dva-vue-c';
 import router from './router';
-
+import loginModel from './models/login';
+import userModel from './models/user';
 
 // #1: Initialization
 const app = dva();
 
 // #2: Models
-app.model(require('./models/login'));
-app.model(require('./models/user'));
+app.model(loginModel);
+app.model(userModel);
 
 // #3: Router
 app.router(() => router);
 
 // #4: Start
 app.start('#app');
+
+// If you want to see the structure of app.
+console.log(app);
 
 ```
 
@@ -360,6 +359,13 @@ Finally we have the `./router`
 
 Integrated with Element-ui, global variables, more configuration for vue-router, middlewares, dynamic routers, see this article.
 
+## About dva and dva-core.
+  
+[dva](https://github.com/dvajs/dva) is a great framework for React, which  re-structures initialState, reducer, saga, action together for redux and improve development experience.
+
+[dva-core](https://github.com/dvajs/dva/tree/master/packages/dva-core) is a redux, redux-saga state management implementation, could be used as another state-management scheme for Vuejs project with [dva-vue](https://github.com/Jetsly/dva-vue) (compared with official *Vuex*).
+
+
 ## License
 
-None
+MIT
