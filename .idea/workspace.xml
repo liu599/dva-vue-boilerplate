@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ea9dfd7-05e6-49a4-b221-7245f852852d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Configuration.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/QuickReference.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README_CN.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Configuration.md" afterPath="$PROJECT_DIR$/Configuration.md" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -43,53 +41,76 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="128">
-                <caret line="208" column="8" lean-forward="true" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
+              <first_editor relative-caret-position="-2208">
+                <caret line="11" column="101" lean-forward="true" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
                 <folding>
-                  <marker date="1513005934701" expanded="true" signature="2089:2221" ph="..." />
-                  <marker date="1513005934701" expanded="true" signature="2969:3500" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="2999:3131" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="3032:3121" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
-                  <marker date="1513005934701" expanded="true" signature="3175:3429" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="3208:3419" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="3251:3408" ph="[...]" />
-                  <marker date="1513005934701" expanded="true" signature="3459:3492" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="3668:3705" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="3776:3819" ph="{&quot;setToken&quot;: setToken...}" />
-                  <marker date="1513005934701" expanded="true" signature="3905:3963" ph="..." />
-                  <marker date="1513005934701" expanded="true" signature="4186:4248" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="4408:4505" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="4578:4647" ph="..." />
-                  <marker date="1513005934701" expanded="true" signature="4672:5778" ph="{&quot;namespace&quot;: 'login'...}" />
-                  <marker date="1513005934701" expanded="true" signature="4752:5375" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="4804:5366" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="4980:5356" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="5046:5156" ph="//..." />
-                  <marker date="1513005934701" expanded="true" signature="5179:5342" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-                  <marker date="1513005934701" expanded="true" signature="5240:5327" ph="{&quot;method&quot;: 'push'...}" />
-                  <marker date="1513005934701" expanded="true" signature="5398:5771" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="5437:5762" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="5556:5752" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="5579:5738" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-                  <marker date="1513005934701" expanded="true" signature="5640:5723" ph="{&quot;method&quot;: 'push'...}" />
-                  <marker date="1513005934701" expanded="true" signature="5852:5923" ph="..." />
-                  <marker date="1513005934701" expanded="true" signature="5948:6923" ph="{&quot;namespace&quot;: 'user'...}" />
-                  <marker date="1513005934701" expanded="true" signature="5988:6015" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6033:6143" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6073:6134" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6092:6123" ph="{&quot;list&quot;: list...}" />
-                  <marker date="1513005934701" expanded="true" signature="6160:6425" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6217:6416" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6329:6406" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6448:6916" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6487:6907" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6499:6625" ph="//..." />
-                  <marker date="1513005934701" expanded="true" signature="6682:6895" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6769:6863" ph="{...}" />
-                  <marker date="1513005934701" expanded="true" signature="6794:6847" ph="{&quot;type&quot;: 'fetchUsers'...}" />
+                  <marker date="1513009446189" expanded="true" signature="2239:2371" ph="..." />
+                  <marker date="1513009446189" expanded="true" signature="3119:3650" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="3149:3281" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="3182:3271" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
+                  <marker date="1513009446189" expanded="true" signature="3325:3579" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="3358:3569" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="3401:3558" ph="[...]" />
+                  <marker date="1513009446189" expanded="true" signature="3609:3642" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="3818:3855" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="3926:3969" ph="{&quot;setToken&quot;: setToken...}" />
+                  <marker date="1513009446189" expanded="true" signature="4055:4113" ph="..." />
+                  <marker date="1513009446189" expanded="true" signature="4336:4398" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="4558:4655" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="4728:4797" ph="..." />
+                  <marker date="1513009446189" expanded="true" signature="4822:5928" ph="{&quot;namespace&quot;: 'login'...}" />
+                  <marker date="1513009446189" expanded="true" signature="4902:5525" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="4954:5516" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="5130:5506" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="5196:5306" ph="//..." />
+                  <marker date="1513009446189" expanded="true" signature="5329:5492" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+                  <marker date="1513009446189" expanded="true" signature="5390:5477" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513009446189" expanded="true" signature="5548:5921" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="5587:5912" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="5706:5902" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="5729:5888" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+                  <marker date="1513009446189" expanded="true" signature="5790:5873" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513009446189" expanded="true" signature="6002:6073" ph="..." />
+                  <marker date="1513009446189" expanded="true" signature="6098:7073" ph="{&quot;namespace&quot;: 'user'...}" />
+                  <marker date="1513009446189" expanded="true" signature="6138:6165" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6183:6293" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6223:6284" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6242:6273" ph="{&quot;list&quot;: list...}" />
+                  <marker date="1513009446189" expanded="true" signature="6310:6575" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6367:6566" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6479:6556" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6598:7066" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6637:7057" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6649:6775" ph="//..." />
+                  <marker date="1513009446189" expanded="true" signature="6832:7045" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6919:7013" ph="{...}" />
+                  <marker date="1513009446189" expanded="true" signature="6944:6997" ph="{&quot;type&quot;: 'fetchUsers'...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickReference.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuickReference.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,13 +119,15 @@
         <entry file="file://$PROJECT_DIR$/Configuration.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="352">
-                <caret line="85" column="70" lean-forward="true" selection-start-line="85" selection-start-column="70" selection-end-line="85" selection-end-column="70" />
+              <first_editor relative-caret-position="576">
+                <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
                 <folding>
-                  <marker date="1513007193201" expanded="true" signature="1380:1466" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
-                  <marker date="1513007193201" expanded="true" signature="1471:1587" ph="//..." />
-                  <marker date="1513007193201" expanded="true" signature="2353:2464" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-                  <marker date="1513007193201" expanded="true" signature="2398:2457" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513009241363" expanded="true" signature="567:610" ph="{...}" />
+                  <marker date="1513009241363" expanded="true" signature="927:971" ph="{...}" />
+                  <marker date="1513009241363" expanded="true" signature="1964:2050" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
+                  <marker date="1513009241363" expanded="true" signature="2055:2171" ph="//..." />
+                  <marker date="1513009241363" expanded="true" signature="2937:3048" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+                  <marker date="1513009241363" expanded="true" signature="2982:3041" ph="{&quot;method&quot;: 'push'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -240,8 +263,8 @@
         <option value="$PROJECT_DIR$/src/modules/user/logRemote.vue" />
         <option value="$PROJECT_DIR$/src/modules/user/userList.vue" />
         <option value="$PROJECT_DIR$/src/modules/user/organization/orgAdd.vue" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Configuration.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -344,19 +367,19 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\cloud-admin\src\common\js" />
-      <recent name="F:\cloud-admin\src\common" />
-      <recent name="F:\cloud-admin\dva-vue-revised" />
-      <recent name="F:\cloud-admin\dva-vue" />
-      <recent name="F:\cloud-admin\node_modules\dva-vue" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\cloud-admin\static" />
       <recent name="F:\cloud-admin\src\modules\operation\help" />
       <recent name="F:\cloud-admin\src\common\js\oldModule" />
       <recent name="F:\cloud-admin\src\modules\scale\scaleManage\scaleTabs" />
       <recent name="F:\cloud-admin\src\modules\scale\scaleManage\scaleTabs\introduce" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\dva-vue-boilerplate\dva-vue-standrad\src\router" />
+      <recent name="D:\Project\dva-vue-boilerplate\dva-vue-standrad\src\utils" />
+      <recent name="D:\Project\dva-vue-boilerplate\dva-vue-standrad\src\services" />
+      <recent name="D:\Project\dva-vue-boilerplate\dva-vue-standrad\src\routes" />
+      <recent name="D:\Project\dva-vue-boilerplate\dva-vue-standrad\src\models" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1704,16 +1727,15 @@
       <workItem from="1512697399321" duration="16971000" />
       <workItem from="1512957494685" duration="2084000" />
       <workItem from="1512977350829" duration="1199000" />
-      <workItem from="1513005765020" duration="1427000" />
+      <workItem from="1513005765020" duration="4896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565631000" />
+    <option name="totallyTimeSpent" value="569100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1760,7 +1782,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/styles/table.styl" />
     <entry file="file://$PROJECT_DIR$/src/routes/Login.vue" />
     <entry file="file://$PROJECT_DIR$/src/models/index.js" />
     <entry file="file://$PROJECT_DIR$/src/main.js" />
@@ -1811,19 +1832,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="17" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuickReference.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1841,51 +1851,70 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="128">
-            <caret line="208" column="8" lean-forward="true" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
+          <first_editor relative-caret-position="-2208">
+            <caret line="11" column="101" lean-forward="true" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
             <folding>
-              <marker date="1513005934701" expanded="true" signature="2089:2221" ph="..." />
-              <marker date="1513005934701" expanded="true" signature="2969:3500" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="2999:3131" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="3032:3121" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
-              <marker date="1513005934701" expanded="true" signature="3175:3429" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="3208:3419" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="3251:3408" ph="[...]" />
-              <marker date="1513005934701" expanded="true" signature="3459:3492" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="3668:3705" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="3776:3819" ph="{&quot;setToken&quot;: setToken...}" />
-              <marker date="1513005934701" expanded="true" signature="3905:3963" ph="..." />
-              <marker date="1513005934701" expanded="true" signature="4186:4248" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="4408:4505" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="4578:4647" ph="..." />
-              <marker date="1513005934701" expanded="true" signature="4672:5778" ph="{&quot;namespace&quot;: 'login'...}" />
-              <marker date="1513005934701" expanded="true" signature="4752:5375" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="4804:5366" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="4980:5356" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="5046:5156" ph="//..." />
-              <marker date="1513005934701" expanded="true" signature="5179:5342" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-              <marker date="1513005934701" expanded="true" signature="5240:5327" ph="{&quot;method&quot;: 'push'...}" />
-              <marker date="1513005934701" expanded="true" signature="5398:5771" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="5437:5762" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="5556:5752" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="5579:5738" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-              <marker date="1513005934701" expanded="true" signature="5640:5723" ph="{&quot;method&quot;: 'push'...}" />
-              <marker date="1513005934701" expanded="true" signature="5852:5923" ph="..." />
-              <marker date="1513005934701" expanded="true" signature="5948:6923" ph="{&quot;namespace&quot;: 'user'...}" />
-              <marker date="1513005934701" expanded="true" signature="5988:6015" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6033:6143" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6073:6134" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6092:6123" ph="{&quot;list&quot;: list...}" />
-              <marker date="1513005934701" expanded="true" signature="6160:6425" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6217:6416" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6329:6406" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6448:6916" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6487:6907" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6499:6625" ph="//..." />
-              <marker date="1513005934701" expanded="true" signature="6682:6895" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6769:6863" ph="{...}" />
-              <marker date="1513005934701" expanded="true" signature="6794:6847" ph="{&quot;type&quot;: 'fetchUsers'...}" />
+              <marker date="1513009446189" expanded="true" signature="2239:2371" ph="..." />
+              <marker date="1513009446189" expanded="true" signature="3119:3650" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="3149:3281" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="3182:3271" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
+              <marker date="1513009446189" expanded="true" signature="3325:3579" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="3358:3569" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="3401:3558" ph="[...]" />
+              <marker date="1513009446189" expanded="true" signature="3609:3642" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="3818:3855" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="3926:3969" ph="{&quot;setToken&quot;: setToken...}" />
+              <marker date="1513009446189" expanded="true" signature="4055:4113" ph="..." />
+              <marker date="1513009446189" expanded="true" signature="4336:4398" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="4558:4655" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="4728:4797" ph="..." />
+              <marker date="1513009446189" expanded="true" signature="4822:5928" ph="{&quot;namespace&quot;: 'login'...}" />
+              <marker date="1513009446189" expanded="true" signature="4902:5525" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="4954:5516" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="5130:5506" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="5196:5306" ph="//..." />
+              <marker date="1513009446189" expanded="true" signature="5329:5492" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513009446189" expanded="true" signature="5390:5477" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513009446189" expanded="true" signature="5548:5921" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="5587:5912" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="5706:5902" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="5729:5888" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513009446189" expanded="true" signature="5790:5873" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513009446189" expanded="true" signature="6002:6073" ph="..." />
+              <marker date="1513009446189" expanded="true" signature="6098:7073" ph="{&quot;namespace&quot;: 'user'...}" />
+              <marker date="1513009446189" expanded="true" signature="6138:6165" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6183:6293" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6223:6284" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6242:6273" ph="{&quot;list&quot;: list...}" />
+              <marker date="1513009446189" expanded="true" signature="6310:6575" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6367:6566" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6479:6556" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6598:7066" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6637:7057" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6649:6775" ph="//..." />
+              <marker date="1513009446189" expanded="true" signature="6832:7045" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6919:7013" ph="{...}" />
+              <marker date="1513009446189" expanded="true" signature="6944:6997" ph="{&quot;type&quot;: 'fetchUsers'...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuickReference.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1894,13 +1923,15 @@
     <entry file="file://$PROJECT_DIR$/Configuration.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="85" column="70" lean-forward="true" selection-start-line="85" selection-start-column="70" selection-end-line="85" selection-end-column="70" />
+          <first_editor relative-caret-position="576">
+            <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             <folding>
-              <marker date="1513007193201" expanded="true" signature="1380:1466" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
-              <marker date="1513007193201" expanded="true" signature="1471:1587" ph="//..." />
-              <marker date="1513007193201" expanded="true" signature="2353:2464" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-              <marker date="1513007193201" expanded="true" signature="2398:2457" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513009241363" expanded="true" signature="567:610" ph="{...}" />
+              <marker date="1513009241363" expanded="true" signature="927:971" ph="{...}" />
+              <marker date="1513009241363" expanded="true" signature="1964:2050" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
+              <marker date="1513009241363" expanded="true" signature="2055:2171" ph="//..." />
+              <marker date="1513009241363" expanded="true" signature="2937:3048" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513009241363" expanded="true" signature="2982:3041" ph="{&quot;method&quot;: 'push'...}" />
             </folding>
           </first_editor>
           <second_editor />

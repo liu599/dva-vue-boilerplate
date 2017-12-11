@@ -1,7 +1,7 @@
 # dva-vue-boilerplate
 
-- In development.
-- Another solution of state management for vue project.
+- [中文版](https://github.com/liu599/dva-vue-boilerplate/blob/master/README_CN.md)
+- Another solution of state management for Vue project.
 - Vue.js project boilerplate with [dva-core](https://github.com/dvajs/dva/tree/master/packages/dva-core).
 - Inspired by [dva-vue](https://github.com/Jetsly/dva-vue).
 - This boilerplate is blank, initialized with a latest version vue-cli (`vue init webpack dva-vue-standrad`), integrated with dva core.
@@ -10,10 +10,14 @@
 
 - `git clone https://github.com/liu599/dva-vue-boilerplate.git` clone this project to your local disk.
 - `cd dva-vue-standrad`, take 5 minutes to read the following rules, begin to build your own project.
+- If you are not familiar with `redux` and `redux-saga`, please read the following articles. You can omit the React and React-router parts because we only use the state management part of dva:
+    - [dva-knowledgemap](https://github.com/dvajs/dva-knowledgemap)
+    - [dva-concepts](https://github.com/dvajs/dva/blob/master/docs/Concepts.md)
+- If you only want to know the changed configuration, please see [this article](https://github.com/liu599/dva-vue-boilerplate/blob/master/Configuration.md)
 
 ## Write vue project with dva
 
-> This article will lead you to create dva-vue-app quickly.
+> This article will lead you to create a dva-vue-app quickly.
 
 ### Create your vue project
 
@@ -357,7 +361,7 @@ Finally we have the `./router`
 
 ### Customize
 
-Integrated with Element-ui, global variables, more configuration for vue-router, middlewares, dynamic routers, see this article.
+Integrated with Element-ui, global variables, more configuration for vue-router, middlewares, dynamic routers, [see this article](https://github.com/liu599/dva-vue-boilerplate/blob/master/Configuration.md).
 
 ## About dva and dva-core.
   
