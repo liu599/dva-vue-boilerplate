@@ -247,7 +247,8 @@ Write a user model in `./models/user`:
       },
       subscriptions: {
         setup({ dispatch, history }) {
-          // 路由监听
+          // history.router is a vue-router, more APIs can be used here.
+          // Please refer to the official vue-router documents.  
           history.router.beforeEach((to, from, next) => {
             console.log(to, from, 'user');
             if (to.path === '/index/user-list') {
@@ -311,6 +312,26 @@ Write a view component in `./routes/Login.vue`,
     </style>
 ```
 
+In the user Component, we could use some function like mapStateToProps in React to connect the store to the component.
+
+In `./routes/User.vue`,
+
+```
+    <template>
+        <ul>
+            <li v-for="(user, index) in list" key="index" v-html="user.name"></li>
+        </ul>
+    </template>
+    <script type="text/ecmascript-6">
+        import { connect } from 'dva-vue-c';
+                
+        export default connect(({ list }) => ({ list }))({
+            data() {
+                return {}
+            },
+        })
+    </script>
+```
 
 ### Write Routers
 
@@ -318,7 +339,7 @@ The [dva-vue](https://github.com/Jetsly/dva-vue) integrates the official vue-rou
 
 In `./router`
 
-```javascript
+```
     import Login from './routes/Login.vue';
     import UserList from './routes/UserList.vue';
 
