@@ -22,7 +22,7 @@
 ### Create your vue project
 
 ```bash
-$ vue init webpack dva-vue-login-app
+$ vue init webpack dva-vue-login-example
 $ cd dva-vue-login-app
 ```
 
@@ -32,7 +32,7 @@ $ cd dva-vue-login-app
 $ npm install dva-vue-c dva-core vue-router -S
 ```
 
-### Delete all the files in *src*, create the following blank files.
+### Delete all the files in *src* folder, create the following blank files.
 
 - **components**: basic Vue Component (shared)
 - **models**: dva models (like in React)
@@ -76,8 +76,8 @@ import router from './router';
 const app = dva();
 
 // #2: Models
-app.model(require('../models/login'));
-app.model(require('../models/user'));
+app.model(require('./models/login'));
+app.model(require('./models/user'));
 
 // #3: Router
 app.router(() => router);
@@ -100,23 +100,26 @@ Write a fake request function(in the real world we will use axios or fetch) in `
 
 ```javascript
     export default (url, params) => {
-        if (url === '/login') {
-            return Promise.resolve({
-                success: true,
-                token: '3e5559ed50cfd254b2158a1bd0e12a37'
-            });
-        } else if (url === '/users' && parmas.token) {
-            return Promise.resolve({
-                success: true,
-                data: [
-                    {id: 1, name: 'Oba'},
-                    {id: 2, name: 'Obb'},
-                    {id: 3, name: 'Obc'},
-                    {id: 4, name: 'Obd'},
-                ],
-            });
-        }
-    }
+      if (url === '/login') {
+        return Promise.resolve({
+          success: true,
+          token: '3e5559ed50cfd254b2158a1bd0e12a37',
+        });
+      } else if (url === '/users' && params.token) {
+        return Promise.resolve({
+          success: true,
+          data: [
+            { id: 1, name: 'Oba' },
+            { id: 2, name: 'Obb' },
+            { id: 3, name: 'Obc' },
+            { id: 4, name: 'Obd' },
+          ],
+        });
+      }
+      return Promise.resolve({
+        success: false,
+      });
+    };
 ```
 
 Write a cache function to store token in `./utils/cache`
@@ -129,9 +132,7 @@ Write a cache function to store token in `./utils/cache`
         storage[KEY] = token;
     }
     
-    const getToken = () => {
-        return storage[KEY];
-    }
+    const getToken = () => storage[KEY];
     
     export default {
         setToken,
@@ -154,30 +155,31 @@ Export all the utils functions in the `./utils/index`
 Write a login service in `./services/login`(make api all):
 
 ```javascript
-    import utils from '../utils';
-
-    export async function login() {
-        const url = '/login';
-        return utils.request(url);
-    }
+    import { request } from '../utils';
+    
+    export default async function login() {
+      const url = '/login';
+      return request(url);
+    };
 ```
 
 Write a user service in `./services/user`
 
 ```javascript
-    import utils from '../utils';
-
-    export async function getUsers(params) {
-        const url = '/user';
-        return utils.request(url, params);
+    import { request } from '../utils';
+    
+    export default async function getUsers(params) {
+      const url = '/users';
+      console.log(params);
+      return request(url, params);
     }
 ```
 
 Write a login model in `./models/login`:
 
 ```javascript
-    import { login } from '../services/login';
-    import utils from '../utils';
+    import login from '../services/login';
+    import { cache } from '../utils';
     
     export default {
       namespace: 'login',
@@ -189,7 +191,7 @@ Write a login model in `./models/login`:
           // THIS IS FOR YOUR DEBUGGING, SEE THE DATA
           yield call(console.log, data);
           if (data.success) {
-            yield call(utils.cache.setToken, data.token);
+            yield call(cache.setToken, data.token);
             // THIS SHOWS HOW TO USE ROUTER IN A SAGA-GENERATOR
             // USE NATIVE VUE-ROUTER API DEFINED IN METHOD
             yield put({
@@ -204,7 +206,7 @@ Write a login model in `./models/login`:
       },
       subscriptions: {
         setup({ dispatch, history }) {
-            // Here is a history listener like in the React.
+          // Here is a history redirect.
           console.log(history);
           if (history.current.path === '/') {
             dispatch({
@@ -218,43 +220,44 @@ Write a login model in `./models/login`:
         },
       },
     };
+
 ``` 
 
 Write a user model in `./models/user`:
 
 ```javascript
+    import { cache } from '../utils';
+    import getUsers from '../services/user';
+    
     export default {
       namespace: 'user',
       state: {
         list: [],
       },
       reducers: {
-        add(state, { payload: data }) {
-          const list = data.data;
+        add(state, { payload: list }) {
           return {
-            ...state,
             list,
           };
         },
       },
       effects: {
         * fetchUsers({ payload }, { put, call, fork }) {
-          const { data } = yield call(usersGetAll, payload);
-          if (data.success) {
-            yield put({ type: 'add', payload: data });
+          const response = yield call(getUsers, { token: cache.getToken() });
+          if (response.success) {
+            yield put({ type: 'add', payload: response.data });
           }
-        }
+        },
       },
       subscriptions: {
         setup({ dispatch, history }) {
           // history.router is a vue-router, more APIs can be used here.
-          // Please refer to the official vue-router documents.  
+          // Please refer to the official vue-router documents.
           history.router.beforeEach((to, from, next) => {
             console.log(to, from, 'user');
-            if (to.path === '/index/user-list') {
+            if (to.path === '/user-list') {
               dispatch({
                 type: 'fetchUsers',
-                payload: defaultSearchParameter,
               });
             }
             next();
@@ -272,13 +275,15 @@ Write a view component in `./routes/Login.vue`,
 
 ```
     <template>
-      <div>
-        <h3>USER:</h3>
-        <input v-model="form.username" type="text" />
-        <h3>PASSWORD:</h3>
-        <input v-model="form.password" type="password" />
-        <button @click="login">Submit</button>
-      </div>
+        <div>
+            <h3>USER:</h3>
+            <input v-model="form.username" type="text" />
+            <h3>PASSWORD:</h3>
+            <input v-model="form.password" type="password" />
+            <div>
+                <button @click="login">Submit</button>
+            </div>
+        </div>
     </template>
     <script type="text/ecmascript-6">
         import { connect } from 'dva-vue-c';
@@ -319,13 +324,13 @@ In `./routes/User.vue`,
 ```
     <template>
         <ul>
-            <li v-for="(user, index) in list" key="index" v-html="user.name"></li>
+            <li v-for="(user, index) in user.list" :key="index" v-html="user.name"></li>
         </ul>
     </template>
     <script type="text/ecmascript-6">
         import { connect } from 'dva-vue-c';
                 
-        export default connect(({ list }) => ({ list }))({
+        export default connect(user => user)({
             data() {
                 return {}
             },
@@ -337,15 +342,17 @@ In `./routes/User.vue`,
 
 The [dva-vue](https://github.com/Jetsly/dva-vue) integrates the official vue-router.
 
-In `./router`
+Finally we have the `./router`
 
 ```
+    import App from './App';
     import Login from './routes/Login.vue';
     import UserList from './routes/UserList.vue';
 
     export default [
-       { path: '/', component: Login },
-       { path: '/user-list', component: UserList }
+       { path: '/', component: App },
+       { path: '/login', component: Login },
+       { path: '/user-list', component: UserList },
     ];
 ```
 
