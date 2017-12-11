@@ -47,10 +47,13 @@ $ npm install dva-vue-c dva-core vue-router -S
     - /components 
     - /models
         - login.js
+        - user.js
     - /routes
         - Login.vue
+        - UserList.vue
     - /services
         - login.js
+        - user.js
     - /utils
         - cache.js
         - request.js
@@ -59,8 +62,6 @@ $ npm install dva-vue-c dva-core vue-router -S
     - router.js   
 ```
 
-
-
 ### Write dva entry file
 
 In `main.js`,
@@ -68,23 +69,25 @@ In `main.js`,
 ```javascript
 
 import dva from 'dva-vue-c';
-import Login from '../routes/Login.vue';
+import router from './router';
+
 
 // #1: Initialization
 const app = dva();
 
-// #2: Model
+// #2: Models
 app.model(require('../models/login'));
+app.model(require('../models/user'));
 
 // #3: Router
-app.router(require('./router'));
+app.router(() => router);
 
 // #4: Start
 app.start('#app');
 
 ```
 
-### Write a login model and service
+### Write models and services
 
 Here our login scheme is:
 
@@ -97,10 +100,22 @@ Write a fake request function(in the real world we will use axios or fetch) in `
 
 ```javascript
     export default (url, params) => {
-        return Promise.resolve({
-            success: true,
-            token: '3e5559ed50cfd254b2158a1bd0e12a37'
-        });
+        if (url === '/login') {
+            return Promise.resolve({
+                success: true,
+                token: '3e5559ed50cfd254b2158a1bd0e12a37'
+            });
+        } else if (url === '/users' && parmas.token) {
+            return Promise.resolve({
+                success: true,
+                data: [
+                    {id: 1, name: 'Oba'},
+                    {id: 2, name: 'Obb'},
+                    {id: 3, name: 'Obc'},
+                    {id: 4, name: 'Obd'},
+                ],
+            });
+        }
     }
 ```
 
@@ -141,8 +156,19 @@ Write a login service in `./services/login`(make api all):
 ```javascript
     import utils from '../utils';
 
-    export async function login(params) {
-        const url = 'xxxx.com'
+    export async function login() {
+        const url = '/login';
+        return utils.request(url);
+    }
+```
+
+Write a user service in `./services/user`
+
+```javascript
+    import utils from '../utils';
+
+    export async function getUsers(params) {
+        const url = '/user';
         return utils.request(url, params);
     }
 ```
@@ -194,18 +220,117 @@ Write a login model in `./models/login`:
     };
 ``` 
 
+Write a user model in `./models/user`:
 
-### Write a vue component connected with dva-vue
+```javascript
+    export default {
+      namespace: 'user',
+      state: {
+        list: [],
+      },
+      reducers: {
+        add(state, { payload: data }) {
+          const list = data.data;
+          return {
+            ...state,
+            list,
+          };
+        },
+      },
+      effects: {
+        * fetchUsers({ payload }, { put, call, fork }) {
+          const { data } = yield call(usersGetAll, payload);
+          if (data.success) {
+            yield put({ type: 'add', payload: data });
+          }
+        }
+      },
+      subscriptions: {
+        setup({ dispatch, history }) {
+          // 路由监听
+          history.router.beforeEach((to, from, next) => {
+            console.log(to, from, 'user');
+            if (to.path === '/index/user-list') {
+              dispatch({
+                type: 'fetchUsers',
+                payload: defaultSearchParameter,
+              });
+            }
+            next();
+          });
+        },
+      },
+    };
+```
 
-use the method connect, we could easily connect the dva-model to vue component, so that you can easily dispatch actions, use data in the component.
+### Write vue components connected with dva
+
+connect the dva-model to vue component with `dva-vue/connect` , dispatch actions in the component.
+
+Write a view component in `./routes/Login.vue`,
+
+```
+    <template>
+      <div>
+        <h3>USER:</h3>
+        <input v-model="form.username" type="text" />
+        <h3>PASSWORD:</h3>
+        <input v-model="form.password" type="password" />
+        <button @click="login">Submit</button>
+      </div>
+    </template>
+    <script type="text/ecmascript-6">
+        import { connect } from 'dva-vue-c';
+        
+        export default connect()({
+            data() {
+                return {
+                    form: {
+                        username: '',
+                        password: '',
+                    }
+                }
+            },
+            methods: {
+                login() {
+                    this.dispatch({
+                        type: 'login/login',
+                        payload: {
+                          username: this.form.username.replace(/\s+/, ''),
+                          password: this.form.password,
+                        },
+                    })
+                }
+            }
+        });
+    </script>
+    <style lang="css" scoped>
+        h3 {
+            color: red;
+        }
+    </style>
+```
+
 
 ### Write Routers
 
 The [dva-vue](https://github.com/Jetsly/dva-vue) integrates the official vue-router.
 
+In `./router`
+
+```javascript
+    import Login from './routes/Login.vue';
+    import UserList from './routes/UserList.vue';
+
+    export default [
+       { path: '/', component: Login },
+       { path: '/user-list', component: UserList }
+    ];
+```
+
 ### Customize
 
-Integrated with Element-ui, global variables, more configuration for vue-router, middlewares.
+Integrated with Element-ui, global variables, more configuration for vue-router, middlewares, dynamic routers, see this article.
 
 ## License
 
