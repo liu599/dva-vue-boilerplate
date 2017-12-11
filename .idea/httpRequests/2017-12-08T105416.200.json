@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "request.token.invalid",
+    "message": "permission denied"
+  },
+  "success": false
+}

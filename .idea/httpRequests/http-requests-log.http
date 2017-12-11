@@ -1,0 +1,270 @@
+POST https://cloud-api.dev.xlhb.com/passport/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T105416.200.json
+
+###
+
+POST https://cloud-api.xlhb.com/passport/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+###
+
+POST https://cloud-api.xlhb.com/admin/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+###
+
+POST https://cloud-api.xlhb.com/passport/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104618.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104507.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/search.org?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104231.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104219.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104132.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104126.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/auth/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104113.502.html
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/module.list.get?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104045.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104028.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/module.list.get?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T104017.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/module.list.get?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T103946.404.txt
+
+###
+
+POST https://cloud.admin.dev.xlhb.com/user/v3/module.list.get?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+###
+
+POST https://cloud.admin.dev.xlhb.com/user/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T103651.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/passport/v3/admin.simulate.login?token=ca07c04259a7a28a26f88831e4eb3747&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T103642.404.html
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/passport/v3/admin.simulate.login?token=cef05fdc429ebd283164c89ea7a157c4&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T103540.404.html
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/admin.simulate.login?token=cef05fdc429ebd283164c89ea7a157c4&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T101705.404.txt
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/passport/v3/admin.simulate.login?token=cef05fdc429ebd283164c89ea7a157c4&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T101643.404.html
+
+###
+
+POST https://cloud-api.dev.xlhb.com/passport/v3/admin.simulate.login?token=cef05fdc429ebd283164c89ea7a157c4&userId=4018958
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-08T101623.404.html
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=4&orgId=753&role=STUDENT
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T040608.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=3&orgId=753&role=STUDENT
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T040557.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=2&orgId=753&role=STUDENT
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035915.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=1&orgId=753&role=STUDENT
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035857.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=217&orgId=753&role=STUDENT
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035841.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=217&orgId=753
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035707.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=4&orgId=753
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035654.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=3&orgId=753
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035626.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=2&orgId=753
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035613.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/user/v3/user.list.get?token=d12ebe682b4a9e73af98b0b594bfb787&pageNum=1&orgId=753
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-07T035603.200.json
+
+###
+
+POST https://cloud-api.admin.dev.xlhb.com/admin/v3/login?username=admin&password=123456
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-06T032540.200.json
+
+###
+
+POST https://admin.dev.xlhb.com/admin/v3/login?username=admin&password=123456
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-12-06T032434.404.html
+
+###
+

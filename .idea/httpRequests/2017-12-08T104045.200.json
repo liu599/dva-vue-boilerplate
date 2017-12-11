@@ -1,0 +1,1 @@
+{"data":{"list":[{"name":"auth","api":["*"]},{"name":"scale","api":["scale.list.get","scale.detail.get","*"]},{"name":"user","api":["*"]},{"name":"upload","api":["*"]}]},"success":true}
