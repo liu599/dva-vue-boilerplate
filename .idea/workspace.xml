@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ea9dfd7-05e6-49a4-b221-7245f852852d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/QuickReference_CN.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Configuration.md" afterPath="$PROJECT_DIR$/Configuration.md" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/QuickReference.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README_CN.md" afterPath="$PROJECT_DIR$/README_CN.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,93 +42,50 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="352">
-                <caret line="11" column="101" lean-forward="false" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
+              <first_editor relative-caret-position="4752">
+                <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
                 <folding>
-                  <marker date="1513009446189" expanded="true" signature="2239:2371" ph="..." />
-                  <marker date="1513009446189" expanded="true" signature="3119:3650" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="3149:3281" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="3182:3271" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
-                  <marker date="1513009446189" expanded="true" signature="3325:3579" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="3358:3569" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="3401:3558" ph="[...]" />
-                  <marker date="1513009446189" expanded="true" signature="3609:3642" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="3818:3855" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="3926:3969" ph="{&quot;setToken&quot;: setToken...}" />
-                  <marker date="1513009446189" expanded="true" signature="4055:4113" ph="..." />
-                  <marker date="1513009446189" expanded="true" signature="4336:4398" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="4558:4655" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="4728:4797" ph="..." />
-                  <marker date="1513009446189" expanded="true" signature="4822:5928" ph="{&quot;namespace&quot;: 'login'...}" />
-                  <marker date="1513009446189" expanded="true" signature="4902:5525" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="4954:5516" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="5130:5506" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="5196:5306" ph="//..." />
-                  <marker date="1513009446189" expanded="true" signature="5329:5492" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-                  <marker date="1513009446189" expanded="true" signature="5390:5477" ph="{&quot;method&quot;: 'push'...}" />
-                  <marker date="1513009446189" expanded="true" signature="5548:5921" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="5587:5912" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="5706:5902" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="5729:5888" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-                  <marker date="1513009446189" expanded="true" signature="5790:5873" ph="{&quot;method&quot;: 'push'...}" />
-                  <marker date="1513009446189" expanded="true" signature="6002:6073" ph="..." />
-                  <marker date="1513009446189" expanded="true" signature="6098:7073" ph="{&quot;namespace&quot;: 'user'...}" />
-                  <marker date="1513009446189" expanded="true" signature="6138:6165" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6183:6293" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6223:6284" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6242:6273" ph="{&quot;list&quot;: list...}" />
-                  <marker date="1513009446189" expanded="true" signature="6310:6575" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6367:6566" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6479:6556" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6598:7066" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6637:7057" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6649:6775" ph="//..." />
-                  <marker date="1513009446189" expanded="true" signature="6832:7045" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6919:7013" ph="{...}" />
-                  <marker date="1513009446189" expanded="true" signature="6944:6997" ph="{&quot;type&quot;: 'fetchUsers'...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickReference.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuickReference.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Configuration.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="513">
-                <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-                <folding>
-                  <marker date="1513009241363" expanded="true" signature="567:610" ph="{...}" />
-                  <marker date="1513009241363" expanded="true" signature="927:971" ph="{...}" />
-                  <marker date="1513009241363" expanded="true" signature="1964:2050" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
-                  <marker date="1513009241363" expanded="true" signature="2055:2171" ph="//..." />
-                  <marker date="1513009241363" expanded="true" signature="2937:3048" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-                  <marker date="1513009241363" expanded="true" signature="2982:3041" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513218213552" expanded="false" signature="2239:2371" ph="..." />
+                  <marker date="1513218213552" expanded="true" signature="3143:3674" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="3173:3305" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="3206:3295" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
+                  <marker date="1513218213552" expanded="true" signature="3349:3603" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="3382:3593" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="3425:3582" ph="[...]" />
+                  <marker date="1513218213552" expanded="true" signature="3633:3666" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="3842:3879" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="3950:3993" ph="{&quot;setToken&quot;: setToken...}" />
+                  <marker date="1513218213552" expanded="true" signature="4079:4137" ph="..." />
+                  <marker date="1513218213552" expanded="true" signature="4360:4422" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="4582:4679" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="4752:4821" ph="..." />
+                  <marker date="1513218213552" expanded="true" signature="4846:5952" ph="{&quot;namespace&quot;: 'login'...}" />
+                  <marker date="1513218213552" expanded="true" signature="4926:5549" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="4978:5540" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="5154:5530" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="5220:5330" ph="//..." />
+                  <marker date="1513218213552" expanded="true" signature="5353:5516" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+                  <marker date="1513218213552" expanded="true" signature="5414:5501" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513218213552" expanded="true" signature="5572:5945" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="5611:5936" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="5730:5926" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="5753:5912" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+                  <marker date="1513218213552" expanded="true" signature="5814:5897" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513218213552" expanded="true" signature="6026:6097" ph="..." />
+                  <marker date="1513218213552" expanded="true" signature="6122:7097" ph="{&quot;namespace&quot;: 'user'...}" />
+                  <marker date="1513218213552" expanded="true" signature="6162:6189" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6207:6317" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6247:6308" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6266:6297" ph="{&quot;list&quot;: list...}" />
+                  <marker date="1513218213552" expanded="true" signature="6334:6599" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6391:6590" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6503:6580" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6622:7090" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6661:7081" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6673:6799" ph="//..." />
+                  <marker date="1513218213552" expanded="true" signature="6856:7069" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6943:7037" ph="{...}" />
+                  <marker date="1513218213552" expanded="true" signature="6968:7021" ph="{&quot;type&quot;: 'fetchUsers'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -139,9 +97,42 @@
         <entry file="file://$PROJECT_DIR$/README_CN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="419">
+                <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickReference_CN.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QuickReference_CN.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="361">
+                <caret line="104" column="12" lean-forward="false" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+                <folding>
+                  <marker date="1513220609495" expanded="true" signature="187:237" ph="//..." />
+                  <marker date="1513220609495" expanded="true" signature="333:389" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="350:383" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="371:373" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="429:432" ph="//..." />
+                  <marker date="1513220609495" expanded="true" signature="573:763" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="590:623" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="642:757" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="663:746" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="1178:1260" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="1386:1513" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+                  <marker date="1513220609495" expanded="true" signature="1435:1504" ph="{&quot;method&quot;: 'push'...}" />
+                  <marker date="1513220609495" expanded="true" signature="1764:1797" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="1869:1935" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="1888:1929" ph="{&quot;someGlobal&quot;: 'App'...}" />
+                  <marker date="1513220609495" expanded="true" signature="2057:2123" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="2081:2117" ph="{&quot;someGlobal&quot;: 'App'...}" />
+                  <marker date="1513220609495" expanded="true" signature="2269:2335" ph="{...}" />
+                  <marker date="1513220609495" expanded="true" signature="2293:2329" ph="{&quot;mode&quot;: 'hash'...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -214,9 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/dev.env.js" />
-        <option value="$PROJECT_DIR$/config/prod.env.js" />
         <option value="$PROJECT_DIR$/config/test.env.js" />
         <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -265,6 +253,9 @@
         <option value="$PROJECT_DIR$/src/modules/user/organization/orgAdd.vue" />
         <option value="$PROJECT_DIR$/Configuration.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/QuickReference.md" />
+        <option value="$PROJECT_DIR$/README_CN.md" />
+        <option value="$PROJECT_DIR$/QuickReference_CN.md" />
       </list>
     </option>
   </component>
@@ -280,12 +271,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/dva-vue-standrad/node_modules" />
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -328,9 +319,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +330,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1733,14 +1724,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="569128000" />
+    <option name="totallyTimeSpent" value="571505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1748,11 +1739,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31664854" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="1920" y="451" width="1920" height="137" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23721436" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="1920" y="451" width="1920" height="137" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17910448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07995736" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1760,14 +1752,35 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07995736" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32208923" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31664854" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="1920" y="451" width="1920" height="137" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1835,70 +1848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README_CN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="11" column="101" lean-forward="false" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
-            <folding>
-              <marker date="1513009446189" expanded="true" signature="2239:2371" ph="..." />
-              <marker date="1513009446189" expanded="true" signature="3119:3650" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="3149:3281" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="3182:3271" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
-              <marker date="1513009446189" expanded="true" signature="3325:3579" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="3358:3569" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="3401:3558" ph="[...]" />
-              <marker date="1513009446189" expanded="true" signature="3609:3642" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="3818:3855" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="3926:3969" ph="{&quot;setToken&quot;: setToken...}" />
-              <marker date="1513009446189" expanded="true" signature="4055:4113" ph="..." />
-              <marker date="1513009446189" expanded="true" signature="4336:4398" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="4558:4655" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="4728:4797" ph="..." />
-              <marker date="1513009446189" expanded="true" signature="4822:5928" ph="{&quot;namespace&quot;: 'login'...}" />
-              <marker date="1513009446189" expanded="true" signature="4902:5525" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="4954:5516" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="5130:5506" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="5196:5306" ph="//..." />
-              <marker date="1513009446189" expanded="true" signature="5329:5492" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-              <marker date="1513009446189" expanded="true" signature="5390:5477" ph="{&quot;method&quot;: 'push'...}" />
-              <marker date="1513009446189" expanded="true" signature="5548:5921" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="5587:5912" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="5706:5902" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="5729:5888" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-              <marker date="1513009446189" expanded="true" signature="5790:5873" ph="{&quot;method&quot;: 'push'...}" />
-              <marker date="1513009446189" expanded="true" signature="6002:6073" ph="..." />
-              <marker date="1513009446189" expanded="true" signature="6098:7073" ph="{&quot;namespace&quot;: 'user'...}" />
-              <marker date="1513009446189" expanded="true" signature="6138:6165" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6183:6293" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6223:6284" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6242:6273" ph="{&quot;list&quot;: list...}" />
-              <marker date="1513009446189" expanded="true" signature="6310:6575" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6367:6566" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6479:6556" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6598:7066" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6637:7057" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6649:6775" ph="//..." />
-              <marker date="1513009446189" expanded="true" signature="6832:7045" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6919:7013" ph="{...}" />
-              <marker date="1513009446189" expanded="true" signature="6944:6997" ph="{&quot;type&quot;: 'fetchUsers'...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1907,11 +1856,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuickReference.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="4752">
+            <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+            <folding>
+              <marker date="1513218213552" expanded="false" signature="2239:2371" ph="..." />
+              <marker date="1513218213552" expanded="true" signature="3143:3674" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="3173:3305" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="3206:3295" ph="{&quot;token&quot;: '3e5559ed50cfd254b2158a1bd0e12a37'...}" />
+              <marker date="1513218213552" expanded="true" signature="3349:3603" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="3382:3593" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="3425:3582" ph="[...]" />
+              <marker date="1513218213552" expanded="true" signature="3633:3666" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="3842:3879" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="3950:3993" ph="{&quot;setToken&quot;: setToken...}" />
+              <marker date="1513218213552" expanded="true" signature="4079:4137" ph="..." />
+              <marker date="1513218213552" expanded="true" signature="4360:4422" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="4582:4679" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="4752:4821" ph="..." />
+              <marker date="1513218213552" expanded="true" signature="4846:5952" ph="{&quot;namespace&quot;: 'login'...}" />
+              <marker date="1513218213552" expanded="true" signature="4926:5549" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="4978:5540" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="5154:5530" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="5220:5330" ph="//..." />
+              <marker date="1513218213552" expanded="true" signature="5353:5516" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513218213552" expanded="true" signature="5414:5501" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513218213552" expanded="true" signature="5572:5945" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="5611:5936" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="5730:5926" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="5753:5912" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513218213552" expanded="true" signature="5814:5897" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513218213552" expanded="true" signature="6026:6097" ph="..." />
+              <marker date="1513218213552" expanded="true" signature="6122:7097" ph="{&quot;namespace&quot;: 'user'...}" />
+              <marker date="1513218213552" expanded="true" signature="6162:6189" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6207:6317" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6247:6308" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6266:6297" ph="{&quot;list&quot;: list...}" />
+              <marker date="1513218213552" expanded="true" signature="6334:6599" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6391:6590" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6503:6580" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6622:7090" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6661:7081" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6673:6799" ph="//..." />
+              <marker date="1513218213552" expanded="true" signature="6856:7069" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6943:7037" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="6968:7021" ph="{&quot;type&quot;: 'fetchUsers'...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_CN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="419">
+            <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1921,15 +1923,46 @@
     <entry file="file://$PROJECT_DIR$/Configuration.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
+          <first_editor relative-caret-position="-1404">
             <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             <folding>
-              <marker date="1513009241363" expanded="true" signature="567:610" ph="{...}" />
-              <marker date="1513009241363" expanded="true" signature="927:971" ph="{...}" />
-              <marker date="1513009241363" expanded="true" signature="1964:2050" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
-              <marker date="1513009241363" expanded="true" signature="2055:2171" ph="//..." />
-              <marker date="1513009241363" expanded="true" signature="2937:3048" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
-              <marker date="1513009241363" expanded="true" signature="2982:3041" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513218213552" expanded="true" signature="567:610" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="927:971" ph="{...}" />
+              <marker date="1513218213552" expanded="true" signature="1964:2050" ph="{&quot;say2&quot;: 'THIS IS DVA-VUE GLOBAL'...}" />
+              <marker date="1513218213552" expanded="true" signature="2055:2171" ph="//..." />
+              <marker date="1513218213552" expanded="true" signature="2937:3048" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513218213552" expanded="true" signature="2982:3041" ph="{&quot;method&quot;: 'push'...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuickReference_CN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="104" column="12" lean-forward="false" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+            <folding>
+              <marker date="1513220609495" expanded="true" signature="187:237" ph="//..." />
+              <marker date="1513220609495" expanded="true" signature="333:389" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="350:383" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="371:373" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="429:432" ph="//..." />
+              <marker date="1513220609495" expanded="true" signature="573:763" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="590:623" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="642:757" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="663:746" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="1178:1260" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="1386:1513" ph="{&quot;type&quot;: 'vueDvaRouter'...}" />
+              <marker date="1513220609495" expanded="true" signature="1435:1504" ph="{&quot;method&quot;: 'push'...}" />
+              <marker date="1513220609495" expanded="true" signature="1764:1797" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="1869:1935" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="1888:1929" ph="{&quot;someGlobal&quot;: 'App'...}" />
+              <marker date="1513220609495" expanded="true" signature="2057:2123" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="2081:2117" ph="{&quot;someGlobal&quot;: 'App'...}" />
+              <marker date="1513220609495" expanded="true" signature="2269:2335" ph="{...}" />
+              <marker date="1513220609495" expanded="true" signature="2293:2329" ph="{&quot;mode&quot;: 'hash'...}" />
             </folding>
           </first_editor>
           <second_editor />
